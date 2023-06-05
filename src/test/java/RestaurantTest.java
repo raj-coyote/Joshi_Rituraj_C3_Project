@@ -77,7 +77,6 @@ class RestaurantTest {
 	
 	@Test
     public void select_item_from_list_should_return_order_cost(){
-        // This will be the failing test case, as there is no functinality written yet for total cost.
             int totalCost;
             createMockRestaurant();
             List<String> selectedItemNames = Arrays.asList("Bhelpuri", "Panipuri" ) ;
